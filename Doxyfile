@@ -1,0 +1,11 @@
+PROJECT_NAME           = "Evaluación Primer Parcial"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Spanish
+FILE_PATTERNS          = *.h *.cpp
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXCLUDE                = x64 Debug ipch .vs
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO

@@ -1,0 +1,12 @@
+# Carpetas de compilación
+x64/
+Debug/
+ipch/
+.vs/
+# Archivos de usuario
+*.user
+*.filters
+*.db
+# Binarios de OpenCV
+*.dll
+*.exe
