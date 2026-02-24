@@ -1,0 +1,32 @@
+# --- Identidad del Proyecto ---
+PROJECT_NAME           = "Analizador de Algoritmos - Universidad Cuauhtémoc"
+PROJECT_NUMBER         = 2.0
+PROJECT_BRIEF          = "Análisis de Complejidad y Transición a POO"
+OUTPUT_DIRECTORY       = docs
+
+# --- Configuración de Idioma y Extracción ---
+OUTPUT_LANGUAGE        = Spanish
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# --- Entrada de Archivos ---
+# Analiza los archivos .cpp y .h en el directorio actual
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = YES
+
+# --- Formato de Salida ---
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+# --- DESACTIVACIÓN DE DIAGRAMAS (Optimización de texto) ---
+HAVE_DOT               = NO
+CLASS_GRAPH            = NO
+COLLABORATION_GRAPH    = NO
+GROUP_GRAPHS           = NO
+GRAPHICAL_HIERARCHY    = NO
+DIRECTORY_GRAPH        = NO
+INCLUDE_GRAPH          = NO
+INCLUDED_BY_GRAPH      = NO
